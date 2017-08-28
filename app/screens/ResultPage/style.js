@@ -15,7 +15,7 @@ const customNavigationStyle = {
 const styles = StyleSheet.create({
   resultPageStyle: {
     width: width,
-    height: height,
+    height: height-65,
     backgroundColor: '#f5f5dc',
     flexDirection: 'column',
     alignItems: 'center'
@@ -30,6 +30,7 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
   definitionBoxStyle: {
+    height: 100,
     width: width * 0.9,
     backgroundColor: 'white',
     borderColor: 'black',
