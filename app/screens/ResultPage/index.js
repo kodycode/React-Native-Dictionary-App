@@ -56,6 +56,10 @@ class ResultPage extends Component {
     }
   }
 
+  componentWillMount = () => {
+    this.props._setTransition(false);
+  }
+
   componentDidMount = async () => {
     try {
       var definition = await this._getDefinition(this.props.word, this.props.apiKey);
